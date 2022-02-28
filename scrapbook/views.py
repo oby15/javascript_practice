@@ -5,3 +5,9 @@ from django.http import HttpResponse
 
 def index(request):
     return render(request, "scrapbook/index.html")
+
+def counter(request):
+    return render(request, "scrapbook/counter.html")
+
+def queryselector(request):
+    return render(request, "scrapbook/queryselector.html")
