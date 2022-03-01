@@ -23,3 +23,6 @@ def colours2(request):
 
 def tasks(request):
     return render(request, "scrapbook/tasks.html")
+
+def localstorage(request):
+    return render(request, "scrapbook/counter_localstorage.html")
