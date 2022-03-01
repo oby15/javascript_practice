@@ -11,3 +11,15 @@ def counter(request):
 
 def queryselector(request):
     return render(request, "scrapbook/queryselector.html")
+
+def hello(request):
+    return render(request, "scrapbook/hello.html")
+
+def colours(request):
+    return render(request, "scrapbook/colours.html")
+
+def colours2(request):
+    return render(request, "scrapbook/colours2.html")
+
+def tasks(request):
+    return render(request, "scrapbook/tasks.html")
