@@ -26,3 +26,9 @@ def tasks(request):
 
 def localstorage(request):
     return render(request, "scrapbook/counter_localstorage.html")
+
+def currency(request):
+    return render(request, "scrapbook/currency.html")
+
+def currency2(request):
+    return render(request, "scrapbook/currency2.html")

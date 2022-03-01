@@ -9,5 +9,7 @@ urlpatterns = [
     path('colours', views.colours, name="colours"),
     path('colours2', views.colours2, name="colours2"),
     path('tasks', views.tasks, name="tasks"),
-    path('localstorage', views.localstorage, name="localstorage")
+    path('localstorage', views.localstorage, name="localstorage"),
+    path('currency', views.currency, name="currency"),
+    path('currency2', views.currency2, name="currency2")
 ]
